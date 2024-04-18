@@ -1,0 +1,7 @@
+<!-- simple_interest_calc/templates/simple_interest_calc/form.html -->
+<form method="post">
+    <h1> CALCULATE THY INTEREST</h1>
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Calculate</button>
+</form>
